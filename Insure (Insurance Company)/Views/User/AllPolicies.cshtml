@@ -1,0 +1,65 @@
+﻿@model IEnumerable<Insure__Insurance_Company_.Models.Policy>
+
+@{
+    ViewData["Title"] = "All Policies";
+}
+
+<div class="upol-wrapper">
+
+    <h1 class="upol-title">Available Insurance Plans</h1>
+    <p class="upol-subtitle">
+        Secure your future with the right insurance policy
+    </p>
+
+    <div class="upol-grid">
+
+        @foreach (var policy in Model)
+        {
+            <div class="upol-card">
+
+                <div class="upol-card-head">
+                    <h3 class="upol-name">@policy.PolicyName</h3>
+                    <span class="upol-type">@policy.InsuranceType.InsuranceName</span>
+                </div>
+
+                <p class="upol-desc">
+                    @policy.InsuranceType.Description
+                </p>
+
+                <div class="upol-info">
+                    <div class="upol-info-box">
+                        <span>Term Years</span>
+                        <strong>@policy.TermYears</strong>
+                    </div>
+
+                    <div class="upol-info-box">
+                        <span>Coverage Amount</span>
+                        <strong>Rs. @policy.CoverageAmount</strong>
+                    </div>
+
+                    <div class="upol-info-box">
+                        <span>Premium Amount</span>
+                        <strong>Rs. @policy.PremiumAmount</strong>
+                    </div>
+                </div>
+
+                <a asp-controller="User"
+                   asp-action="BuyPolicy"
+                   asp-route-id="@policy.PolicyId"
+                   class="upol-buy-btn">
+                    Buy Policy
+                </a>
+
+
+            </div>
+        }
+
+    </div>
+
+</div>
+@if (!Model.Any())
+{
+    <p class="text-center text-muted mt-4">
+        No policies found.
+    </p>
+}

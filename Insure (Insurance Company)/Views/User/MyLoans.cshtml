@@ -1,0 +1,49 @@
+﻿@model List<Insure__Insurance_Company_.Models.Loan>
+
+@{
+    ViewData["Title"] = "My Loans";
+}
+
+<div class="container my-5">
+    <h1 class="mb-4 text-center">My Loan Applications</h1>
+
+    @if (TempData["Success"] != null)
+    {
+        <div class="alert alert-success text-center">
+            @TempData["Success"]
+        </div>
+    }
+
+    @if (!Model.Any())
+    {
+        <p class="text-center text-muted">You have not applied for any loans yet.</p>
+    }
+    else
+    {
+        <div class="table-responsive">
+            <table class="table table-striped table-hover align-middle">
+                <thead class="table-light">
+                    <tr>
+                        <th>Policy</th>
+                        <th>Loan Amount</th>
+                        <th>Interest Rate (%)</th>
+                        <th>Loan Date</th>
+                        <th>Status</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var loan in Model)
+                    {
+                        <tr>
+                            <td>@loan.UserPolicy?.Policy?.PolicyName</td>
+                            <td>Rs. @loan.LoanAmount?.ToString("N2")</td>
+                            <td>@loan.InterestRate?.ToString("N2")</td>
+                            <td>@(loan.LoanDate?.ToString("yyyy-MM-dd") ?? "N/A")</td>
+                            <td>@loan.Status</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    }
+</div>

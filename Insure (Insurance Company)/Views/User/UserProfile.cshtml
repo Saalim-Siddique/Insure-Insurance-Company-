@@ -1,0 +1,58 @@
+﻿@model Insure__Insurance_Company_.Models.User
+
+@{
+	ViewData["Title"] = "User Profile";
+}
+
+@if (TempData["ProfileUpdateSuccess"] != null)
+{
+	<div class="alert alert-success text-center">
+		@TempData["ProfileUpdateSuccess"]
+	</div>
+}
+
+<div class="container py-4 user-dashboard-container">
+	<h1 class="mb-4 ud-title text-center">Your Profile</h1>
+
+	<div class="row justify-content-center ud-content-wrapper">
+		<aside class="col-md-4 mb-4 ud-sidebar d-flex flex-column align-items-center bg-light p-4 rounded shadow-sm">
+			<div class="ud-user-avatar bg-primary text-white rounded-circle d-flex justify-content-center align-items-center mb-3"
+				 style="width: 120px; height: 120px; font-size: 48px; font-weight: 700;">
+			      	@Model.FullName.Substring(0, 1).ToUpper()
+			</div>
+			<h2 class="ud-user-name h4 text-center mb-1">@Model.FullName</h2>
+			<p class="ud-user-email text-muted text-center mb-0">@Model.Email</p>
+		</aside>
+
+		<section class="col-md-6 ud-user-details bg-white p-4 rounded shadow-sm">
+			<h3 class="mb-3">Profile Details</h3>
+			<dl class="row mb-0">
+				<dt class="col-sm-4 fw-semibold">Full Name:</dt>
+				<dd class="col-sm-8">@Model.FullName</dd>
+
+				<dt class="col-sm-4 fw-semibold">Email:</dt>
+				<dd class="col-sm-8">@Model.Email</dd>
+
+				<dt class="col-sm-4 fw-semibold">Phone:</dt>
+				<dd class="col-sm-8">@Model.Phone</dd>
+
+				<dt class="col-sm-4 fw-semibold">Address:</dt>
+				<dd class="col-sm-8">@Model.Address</dd>
+
+
+				<dt class="col-sm-4 fw-semibold">Age:</dt>
+				<dd class="col-sm-8">
+					@if (ViewBag.UserAge != null)
+					{
+						@ViewBag.UserAge
+					}
+				</dd>
+			</dl>
+			</dl>
+			<a class="user-profile-button" asp-controller="User" asp-action="EditProfile" asp-route-id="@Model.UserId">Edit Profile</a>
+
+
+		</section>
+
+	</div>
+</div>

@@ -1,0 +1,82 @@
+﻿@model List<UserPolicyPaymentHistoryViewModel>
+
+@{
+    ViewData["Title"] = "Payment History";
+}
+
+<h1 class="text-center mb-4">Payment History</h1>
+
+@if (!Model.Any())
+{
+    <p class="text-center text-muted">You have no policies.</p>
+}
+else
+{
+    <div class="my-policies-table-container">
+        <table class="my-policies-table">
+            <thead>
+                <tr>
+                    <th>Policy Name</th>
+                    <th>Start Date</th>
+                    <th>End Date</th>
+                    <th>Status</th>
+                    <th>Duration (Months)</th>
+                    <th>Premiums Paid</th>
+                    <th>Premiums Left</th>
+                    <th>Payment History</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td data-label="Policy Name">@item.PolicyName</td>
+                        <td data-label="Start Date">@item.StartDate.ToString("yyyy-MM-dd")</td>
+                        <td data-label="End Date">@item.EndDate.ToString("yyyy-MM-dd")</td>
+                        <td data-label="Status">@item.Status</td>
+                        <td data-label="Duration (Months)">@item.DurationInMonths</td>
+                        <td data-label="Premiums Paid">@item.PremiumsPaidCount</td>
+                        <td data-label="Premiums Left">@item.PremiumsLeftCount</td>
+                        <td data-label="Payment History">
+                            <button class="btn btn-info btn-sm" type="button" data-bs-toggle="collapse" data-bs-target="#payments-@item.UserPolicyId" aria-expanded="false" aria-controls="payments-@item.UserPolicyId">
+                                View Payments
+                            </button>
+                        </td>
+                    </tr>
+                    <tr class="collapse" id="payments-@item.UserPolicyId">
+                        <td colspan="8" class="p-0">
+                            @if (item.Payments.Any())
+                            {
+                                <table class="table table-sm m-0">
+                                    <thead class="table-light d-none d-md-table-header-group">
+                                        <tr>
+                                            <th>Date</th>
+                                            <th>Amount Paid</th>
+                                            <th>Payment Mode</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        @foreach (var pay in item.Payments)
+                                        {
+                                            <tr>
+                                                <td data-label="Date">@pay.PaymentDate.ToString("yyyy-MM-dd")</td>
+                                                <td data-label="Amount Paid">Rs. @pay.AmountPaid</td>
+                                                <td data-label="Payment Mode">@pay.PaymentMode</td>
+                                            </tr>
+                                        }
+                                    </tbody>
+                                </table>
+                            }
+                            else
+                            {
+                                <p class="m-3 text-muted">No payments made yet.</p>
+                            }
+                        </td>
+                    </tr>
+
+                }
+            </tbody>
+
+        </table>
+    </div>
+}

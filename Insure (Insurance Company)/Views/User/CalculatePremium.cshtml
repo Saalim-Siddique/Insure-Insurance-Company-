@@ -1,0 +1,27 @@
+﻿
+@{
+    ViewData["Title"] = "CalculatePremium";
+}
+
+<h1>CalculatePremium</h1>
+
+<div class="premium-wrapper">
+    <h2>Premium Calculation</h2>
+
+
+
+    <p><strong>Your Age:</strong> @ViewBag.Age</p>
+    <p>
+        <strong>Final Premium:</strong>
+        <span class="premium-price">Rs. @ViewBag.FinalPremium</span>
+    </p>
+    <form asp-action="ConfirmPolicy" method="post">
+        <input type="hidden" name="policyId" value="@ViewBag.Policy.PolicyId" />
+        <input type="hidden" name="premium" value="@ViewBag.FinalPremium" />
+
+        <button class="confirm-btn">
+            Confirm Policy →
+        </button>
+    </form>
+
+</div>

@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Insure__Insurance_Company_.Models.UserPolicy>
+
+@{
+    ViewData["Title"] = "MyPolicies";
+    var paymentsCount = ViewBag.PaymentsCount as Dictionary<int, int>;
+}
+
+<h1 class="text-center mb-4">My Policies</h1>
+
+@if (TempData["ActivePolErr"] != null)
+{
+    <div class="alert alert-danger text-center">
+        @TempData["ActivePolErr"]
+    </div>
+}
+
+@if (TempData["PolicySuccess"] != null)
+{
+    <div class="alert alert-success text-center">
+        @TempData["PolicySuccess"]
+    </div>
+}
+
+@if (TempData["PaymentSuccess"] != null)
+{
+    <div class="alert alert-success text-center">
+        @TempData["PaymentSuccess"]
+    </div>
+}
+
+@if (TempData["PaymentError"] != null)
+{
+    <div class="alert alert-danger text-center">
+        @TempData["PaymentError"]
+    </div>
+}
+
+<div class="my-policies-table-container">
+    <table class="my-policies-table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.User.FullName)</th>
+                <th>@Html.DisplayNameFor(model => model.StartDate)</th>
+                <th>@Html.DisplayNameFor(model => model.EndDate)</th>
+                <th>@Html.DisplayNameFor(model => model.Status)</th>
+                <th>@Html.DisplayNameFor(model => model.AgeAtPurchase)</th>
+                <th>@Html.DisplayNameFor(model => model.Policy.PolicyName)</th>
+                <th>@Html.DisplayNameFor(model => model.Policy.CoverageAmount)</th>
+                <th>@Html.DisplayNameFor(model => model.Policy.InsuranceType.InsuranceName)</th>
+                <th>@Html.DisplayNameFor(model => model.FinalPremium)</th>
+                <th>Premiums Paid</th>
+                <th>Premiums Left</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                int paid = 0;
+                if (paymentsCount != null && paymentsCount.ContainsKey(item.UserPolicyId))
+                {
+                    paid = paymentsCount[item.UserPolicyId];
+                }
+
+                int totalMonths = item.Policy.DurationInMonths;
+                int left = totalMonths - paid;
+                if (left < 0) left = 0;
+
+                <tr>
+                    <td data-label="User Name">@item.User?.FullName</td>
+                    <td data-label="Start Date">@Html.DisplayFor(modelItem => item.StartDate)</td>
+                    <td data-label="End Date">@Html.DisplayFor(modelItem => item.EndDate)</td>
+                    <td data-label="Status">@Html.DisplayFor(modelItem => item.Status)</td>
+                    <td data-label="Age At Purchase">@Html.DisplayFor(modelItem => item.AgeAtPurchase)</td>
+                    <td data-label="Policy Name">@Html.DisplayFor(modelItem => item.Policy.PolicyName)</td>
+                    <td data-label="Coverage Amount">Rs. @Html.DisplayFor(modelItem => item.Policy.CoverageAmount)</td>
+                    <td data-label="Insurance Type">@Html.DisplayFor(modelItem => item.Policy.InsuranceType.InsuranceName)</td>
+                    <td data-label="Final Premium">Rs. @Html.DisplayFor(modelItem => item.FinalPremium)</td>
+                    <td data-label="Premiums Paid">@paid</td>
+                    <td data-label="Premiums Left">@left</td>
+
+                    <td>
+                        @if (item.Status == "Active" && left > 0)
+                        {
+                            <a asp-controller="User"
+                               asp-action="PayPremium"
+                               asp-route-userPolicyId="@item.UserPolicyId"
+                               class="btn btn-success btn-sm">
+                                💳 Pay Premium
+                            </a>
+                        }
+                        else if (left == 0)
+                        {
+                            <span class="text-success">All Paid ✅</span>
+                        }
+                        else
+                        {
+                            <span class="text-muted">Not Active</span>
+                        }
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+@if (!Model.Any())
+{
+    <p class="text-center text-muted mt-4">
+        No policies found.
+    </p>
+}

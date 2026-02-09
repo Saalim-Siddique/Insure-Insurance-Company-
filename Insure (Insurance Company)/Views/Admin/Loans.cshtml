@@ -1,0 +1,111 @@
+﻿@model IEnumerable<Insure__Insurance_Company_.Models.Loan>
+
+
+@{
+	ViewData["Title"] = "Loans";
+}
+
+<div class="admin-loan-table-container">
+	<h1>Loans</h1>
+	@if (TempData["LoanApproved"] != null)
+	{
+		<div class="alert alert-success">@TempData["LoanApproved"]</div>
+	}
+
+	@if (TempData["LoanRejected"] != null)
+	{
+		<div class="alert alert-danger">@TempData["LoanRejected"]</div>
+	}
+	<div class="loan-summary-wrapper">
+		<div class="loan-summary-card all">
+			<h4>All Loans</h4>
+			<p class="count">@ViewBag.AllLoans</p>
+		</div>
+
+		<div class="loan-summary-card approved">
+			<h4>Approved Loans</h4>
+			<p class="count">@ViewBag.AppLoans</p>
+		</div>
+
+		<div class="loan-summary-card pending">
+			<h4>Pending Loans</h4>
+			<p class="count">@ViewBag.PenLoans</p>
+		</div>
+
+		<div class="loan-summary-card rejected">
+			<h4>Rejected Loans</h4>
+			<p class="count">@ViewBag.RejLoans</p>
+		</div>
+	</div>
+
+
+	<table class="admin-users-table">
+		<thead>
+			<tr>
+				<th>Policy Name</th>
+				<th>Loan Amount</th>
+				<th>Interest Rate (%)</th>
+				<th>Loan Date</th>
+				<th>Status</th>
+				<th>Actions</th>
+			</tr>
+		</thead>
+		<tbody>
+			@foreach (var loan in Model)
+			{
+				<tr>
+					<td data-label="Policy Name">
+						@loan.UserPolicy.Policy.PolicyName
+					</td>
+
+					<td data-label="Loan Amount">
+						@loan.LoanAmount
+					</td>
+
+					<td data-label="Interest Rate (%)">
+						@loan.InterestRate
+					</td>
+
+					<td data-label="Loan Date">
+						@loan.LoanDate
+					</td>
+
+					<td data-label="Status">
+						@loan.Status
+					</td>
+
+					<td data-label="Actions">
+						@if (loan.Status != "Approved" && loan.Status != "Rejected")
+						{
+							<form asp-action="ApproveLoan" method="post" style="display:inline;">
+								<input type="hidden" name="loanId" value="@loan.LoanId" />
+								<button type="submit" class="btn btn-success btn-sm">Approve</button>
+							</form>
+
+							<form asp-action="RejectLoan" method="post" style="display:inline;">
+								<input type="hidden" name="loanId" value="@loan.LoanId" />
+								<button type="submit" class="btn btn-danger btn-sm">Reject</button>
+							</form>
+						}
+						else if (loan.Status == "Approved")
+						{
+							<span class="text-success">Approved</span>
+						}
+						else
+						{
+							<span class="text-danger">Rejected</span>
+						}
+					</td>
+				</tr>
+			}
+		</tbody>
+
+	</table>
+</div>
+@if (!Model.Any())
+{
+	<p class="text-center text-muted mt-4">
+		No loans found.
+	</p>
+}
+

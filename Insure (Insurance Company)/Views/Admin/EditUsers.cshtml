@@ -1,0 +1,68 @@
+﻿@model Insure__Insurance_Company_.Models.User
+
+@{
+    ViewData["Title"] = "EditUsers";
+}
+
+
+<div class="page-content-wrapper">
+    <h1 class="edit-users-title">Edit Users</h1>
+
+<div class="edit-users-row">
+    <div class="edit-users-col">
+        <form asp-action="EditUsers" class="edit-users-form">
+
+            <input type="hidden" asp-for="UserId" />
+
+            <div class="edit-form-group">
+                <label asp-for="FullName" class="edit-form-label"></label>
+                <input asp-for="FullName" class="edit-form-control" />
+                <span asp-validation-for="FullName" class="edit-text-danger"></span>
+            </div>
+
+            <div class="edit-form-group">
+                <label asp-for="Email" class="edit-form-label"></label>
+                <input asp-for="Email" class="edit-form-control" />
+                <span asp-validation-for="Email" class="edit-text-danger"></span>
+            </div>
+
+            <div class="edit-form-group">
+                <label asp-for="Password" class="edit-form-label"></label>
+                <input asp-for="Password" class="edit-form-control" />
+                <span asp-validation-for="Password" class="edit-text-danger"></span>
+            </div>
+
+            <div class="edit-form-group">
+                <label asp-for="Phone" class="edit-form-label"></label>
+                <input asp-for="Phone" class="edit-form-control" />
+                <span asp-validation-for="Phone" class="edit-text-danger"></span>
+            </div>
+
+            <div class="edit-form-group">
+                <label asp-for="DateOfBirth" class="edit-form-label"></label>
+                <input asp-for="DateOfBirth" class="edit-form-control" />
+                <span asp-validation-for="DateOfBirth" class="edit-text-danger"></span>
+            </div>
+
+            <div class="edit-form-group">
+                <label asp-for="Address" class="edit-form-label"></label>
+                <input asp-for="Address" class="edit-form-control" />
+                <span asp-validation-for="Address" class="edit-text-danger"></span>
+            </div>
+
+            <input asp-for="Role" type="hidden" />
+            <input asp-for="CreatedAt" type="hidden" />
+
+            <div class="edit-form-group">
+                    <input type="submit" value="Save" class="edit-btn-primary" onclick="return confirm('Are you sure you want to edit this user?');" />
+            </div>
+        </form>
+            <div asp-validation-summary="All" class="text-danger"></div>
+
+           <div class="edit-back-link-parent"><a asp-action="AllUsers" class="edit-back-link">Back to List</a></div></>
+            
+    </div>
+</div>
+    
+</div>
+

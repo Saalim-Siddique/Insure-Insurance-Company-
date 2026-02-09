@@ -1,0 +1,70 @@
+﻿@model Insure__Insurance_Company_.Models.PolicyWithInsuranceTypeViewModel
+
+@{
+    ViewData["Title"] = "AddPolicyWithInsurance";
+}
+
+<div class="add-policy-row">
+    <div class="add-policy-col">
+
+        <h1 class="add-policy-title">Add Policy</h1>
+
+        <form asp-action="AddPolicyWithInsurance" method="post">
+            @Html.AntiForgeryToken()
+
+            <div class="add-policy-group">
+                <label asp-for="InsuranceTypeId" class="add-policy-label"></label>
+                <select asp-for="InsuranceTypeId"
+                        class="add-policy-control"
+                        asp-items="Model.InsuranceTypesList">
+                    <option value="">-- Select Insurance Type --</option>
+                </select>
+                <span asp-validation-for="InsuranceTypeId" class="add-policy-error"></span>
+            </div>
+
+            <div class="add-policy-group">
+                <label asp-for="PolicyName" class="add-policy-label"></label>
+                <input asp-for="PolicyName" class="add-policy-control" />
+                <span asp-validation-for="PolicyName" class="add-policy-error"></span>
+            </div>
+
+            <div class="add-policy-group">
+                <label asp-for="TermYears" class="add-policy-label"></label>
+                <input asp-for="TermYears" class="add-policy-control" />
+                <span asp-validation-for="TermYears" class="add-policy-error"></span>
+            </div>
+
+            <div class="add-policy-group">
+                <label asp-for="PremiumAmount" class="add-policy-label"></label>
+                <input asp-for="PremiumAmount" class="add-policy-control" />
+                <span asp-validation-for="PremiumAmount" class="add-policy-error"></span>
+            </div>
+
+            <div class="add-policy-group">
+                <label asp-for="CoverageAmount" class="add-policy-label"></label>
+                <input asp-for="CoverageAmount" class="add-policy-control" />
+                <span asp-validation-for="CoverageAmount" class="add-policy-error"></span>
+            </div>
+
+            <div class="add-policy-group">
+                <label asp-for="DurationInMonth" class="add-policy-label"></label>
+                <input asp-for="DurationInMonth" class="add-policy-control" />
+                <span asp-validation-for="DurationInMonth" class="add-policy-error"></span>
+            </div>
+
+
+            <button type="submit" class="add-policy-btn">
+                Add Policy
+            </button>
+        </form>
+
+        <div class="add-policy-back-wrapper">
+            <a asp-controller="Admin"
+               asp-action="Policies"
+               class="add-policy-back-link">
+                ← Back to list
+            </a>
+        </div>
+
+    </div>
+</div>

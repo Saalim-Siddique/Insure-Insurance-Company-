@@ -1,0 +1,32 @@
+﻿@model Insure__Insurance_Company_.Models.Loan
+
+<h2 class="text-center mb-4">Apply for Loan</h2>
+
+<div class="applyloan-container container">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5 applyloan-container-child">
+            <form asp-action="ApplyLoan" asp-controller="User" method="post" novalidate>
+                @Html.AntiForgeryToken()
+
+                <div class="mb-3">
+                    <label asp-for="UserPolicyId" class="form-label"></label>
+                    <select asp-for="UserPolicyId" class="form-select" asp-items="ViewBag.UserPolicies" required>
+                        <option value="">-- Select Policy --</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label asp-for="LoanAmount" class="form-label"></label>
+                    <input asp-for="LoanAmount" class="form-control" required />
+                    <span asp-validation-for="LoanAmount" class="text-danger small"></span>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Apply Loan</button>
+            </form>
+
+            <div class="mt-3 text-center">
+                <a asp-controller="user" asp-action="MyLoans" class="btn btn-link">My Loans</a>
+            </div>
+        </div>
+    </div>
+</div>

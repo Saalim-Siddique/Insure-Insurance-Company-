@@ -1,0 +1,39 @@
+﻿@model Insure__Insurance_Company_.Models.InsuranceType
+
+@{
+    ViewData["Title"] = "AddInsType";
+}
+
+<div class="add-ins-row">
+    <div class="add-ins-col">
+
+        <h2 class="add-ins-title">Add Insurance Type</h2>
+
+        <form asp-action="AddInsType" class="add-ins-form">
+            <div asp-validation-summary="ModelOnly" class="add-ins-text-danger"></div>
+
+            <div class="add-ins-form-group">
+                <label asp-for="InsuranceName" class="add-ins-form-label"></label>
+                <input asp-for="InsuranceName" class="add-ins-form-control" />
+                <span asp-validation-for="InsuranceName" class="add-ins-text-danger"></span>
+            </div>
+
+            <div class="add-ins-form-group">
+                <label asp-for="Description" class="add-ins-form-label"></label>
+                <input asp-for="Description" class="add-ins-form-control" />
+                <span asp-validation-for="Description" class="add-ins-text-danger"></span>
+            </div>
+
+            <div class="add-ins-btn-group">
+                <input type="submit" value="Add Insurance Type" class="add-ins-btn-primary" />
+            </div>
+        </form>
+
+        <div class="add-ins-back-link-parent">
+            <a asp-controller="Admin" asp-action="InsTypes" class="add-ins-back-link">
+                ← Back to List
+            </a>
+        </div>
+
+    </div>
+</div>

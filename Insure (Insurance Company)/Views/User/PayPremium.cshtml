@@ -1,0 +1,39 @@
+﻿@model Insure__Insurance_Company_.Models.UserPolicy
+
+@{
+    ViewData["Title"] = "PayPremium";
+}
+
+
+<h2 class="text-center mb-4">Pay Premium</h2>
+@if (ViewBag.PaymentSuccess != null)
+{
+    <div class="alert alert-success text-center">
+        @ViewBag.PaymentSuccess
+    </div>
+}
+
+<div class="card shadow p-4 mx-auto" style="max-width: 450px;">
+    <p><strong>Policy:</strong> @Model.Policy.PolicyName</p>
+    <p><strong>Premium:</strong> Rs. @Model.FinalPremium</p>
+
+    <form asp-action="PayPremium" method="post">
+        <input type="hidden" name="userPolicyId" value="@Model.UserPolicyId" />
+
+        <div class="mb-3">
+            <label class="form-label">Payment Mode</label>
+            <select name="paymentMode" class="form-control" required>
+                <option value="">Select</option>
+                <option>Debit Card</option>
+                <option>Credit Card</option>
+                <option>Bank Transfer</option>
+            </select>
+        </div>
+
+        <button type="submit" class="btn btn-success w-100">
+            💳 Pay Rs. @Model.FinalPremium
+        </button>
+    </form>
+</div>
+
+

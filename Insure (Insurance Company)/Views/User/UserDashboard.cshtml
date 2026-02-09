@@ -1,0 +1,70 @@
+﻿@{
+    ViewData["Title"] = "UserDashboard";
+}
+
+
+<div class="user-layout">
+
+
+    <!-- Main Content -->
+    <main class="user-main">
+      
+
+        <!-- Header -->
+        <div class="user-topbar">
+            <h2>User Dashboard</h2>
+            <div class="user-profile-mini">
+                <span class="user-name">Welcome, @Context.Session.GetString("FullName")</span>
+                <div class="user-avatar"><a asp-controller="User" asp-action="UserProfile">@ViewBag.UserInitial</a></div>
+            </div>
+        </div>
+
+        <!-- Quick Action Cards -->
+        <div class="user-feature-grid">
+
+            <div class="user-feature-card">
+                <div class="icon">👤</div>
+                <h4>Profile</h4>
+                <p>Manage your account</p>
+                <button><a asp-controller="User" asp-action="UserProfile">Manage</a></button>
+            </div>
+
+            <div class="user-feature-card">
+                <div class="icon">📄</div>
+                <h4>Available Policies</h4>
+                <p>Browse insurance plans</p>
+                <button><a asp-controller="User" asp-action="AllPolicies">View</a></button>
+            </div>
+
+
+            <div class="user-feature-card">
+                <div class="icon">📁</div>
+                <h4>My Policies</h4>
+                <p>View your policies</p>
+                <button><a asp-controller="User" asp-action="MyPolicies">View</a></button>
+            </div>
+
+            <div class="user-feature-card">
+                <div class="icon">📜</div>
+                <h4>Payments History</h4>
+                <p>View your payment history</p>
+                <button><a asp-controller="User" asp-action="PaymentHistory">View</a></button>
+            </div>
+
+            <div class="user-feature-card">
+                <div class="icon">🏦</div>
+                <h4>Loan Request</h4>
+                <p>Apply for loan</p>
+                <button><a asp-controller="User" asp-action="ApplyLoan">Apply</a></button>
+
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+</div>
+
+

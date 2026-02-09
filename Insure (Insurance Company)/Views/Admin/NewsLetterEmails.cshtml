@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Insure__Insurance_Company_.Models.NewsletterSubscription>
+
+@{
+    ViewData["Title"] = "NewsLetterEmails";
+}
+
+<div class="newsletter-table-container">
+    <h1>News Letter Emails</h1>
+
+    <table class="table newsletter-table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Email)</th>
+                <th>@Html.DisplayNameFor(model => model.SubscribedAt)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td data-label="Email">@Html.DisplayFor(modelItem => item.Email)</td>
+                    <td data-label="Subscribed At">@Html.DisplayFor(modelItem => item.SubscribedAt)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+

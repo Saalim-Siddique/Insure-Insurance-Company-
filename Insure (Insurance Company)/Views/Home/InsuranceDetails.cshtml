@@ -1,0 +1,62 @@
+﻿@model Insure__Insurance_Company_.Models.InsuranceType
+@{
+	ViewData["Title"] = "InsuranceDetails";
+}
+
+
+
+<!-- Page Header Start -->
+<div class="container-fluid page-header py-5 mb-5 wow fadeIn"
+	 data-wow-delay="0.1s">
+	<div class="container py-5">
+		<h1 class="display-4 animated slideInDown mb-4">Services</h1>
+		<nav aria-label="breadcrumb animated slideInDown">
+			<ol class="breadcrumb mb-0">
+				<li class="breadcrumb-item"><a asp-controller="Home" asp-action="index">Home</a></li>
+			</ol>
+		</nav>
+	</div>
+</div>
+<!-- Page Header End -->
+
+<div class="policy-container">
+
+	@foreach (var policy in ViewBag.Policies)
+	{
+		<div class="policy-card">
+			<h2>@policy.PolicyName</h2>
+
+			<p>
+				<strong>Description:</strong>
+				@ViewBag.Insurance.Description
+			</p>
+
+			<p>
+				<strong>Premium Amount:</strong>
+				Rs. @policy.PremiumAmount
+			</p>
+
+			<p>
+				<strong>Coverage Details:</strong>
+				Up to Rs. @policy.CoverageAmount
+			</p>
+
+			<p>
+				<strong>Term / Duration:</strong>
+				@policy.TermYears year(s)
+			</p>
+
+			<br />
+
+			<a asp-controller="User"
+			   asp-action="BuyPolicy"
+			   asp-route-id="@policy.PolicyId"
+			   class="policy-btn">
+				Buy Policy
+			</a>
+		</div>
+	}
+
+</div>
+
+

@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "AdminDashboard";
+}
+
+<div class="admin-wrapper">
+
+    <!-- Mobile Toggle -->
+    <button class="admin-sidebar-toggle" id="adminSidebarToggle">
+        ☰
+    </button>
+
+    <!-- Sidebar -->
+    <aside class="admin-sidebar" id="adminSidebar">
+
+        <h2 class="admin-logo">Admin Panel</h2>
+
+        <ul class="admin-menu">
+            <li><a asp-action="AdminDashboard" class="admin-active">Dashboard</a></li>
+            <li><a asp-controller="Admin" asp-action="AllUsers">Users</a></li>
+            <li><a asp-controller="Admin" asp-action="Policies">Insurance Policies</a></li>
+            <li><a asp-controller="Admin" asp-action="Payments">Payments</a></li>
+            <li><a asp-controller="Admin" asp-action="Loans">Loan Approvals</a></li>
+            <li><a asp-controller="Admin" asp-action="UserPolicies">User Policies</a></li>
+            <li><a asp-controller="Admin" asp-action="NewsLetterEmails">News Letter Emails</a></li>
+            <li class="admin-logout"><a asp-controller="Account" asp-action="Logout" onclick="return confirm('Are you sure you want to logout?');">Logout</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="admin-content">
+        <div class="user-topbar">
+        <h1 class="admin-title">Dashboard</h1>
+            <div class="user-profile-mini"> 
+        <span class="user-name">Welcome back, @Context.Session.GetString("FullName") 👋</span>
+                <div class="user-avatar">@ViewBag.UserInitial</div>
+
+            </div>
+        </div>
+        <div class="admin-cards">
+            <div class="admin-info-box admin-feature-card">
+                <h1>👥</h1>
+                <h3>Total Users</h3>
+                <p>@ViewBag.TotalUsers</p>
+                <button><a asp-controller="Admin" asp-action="AllUsers">View</a></button>
+            </div>
+            <div class="admin-info-box admin-feature-card">
+                <h1>📁</h1>
+                <h3>Policies</h3>
+                <p>@ViewBag.TotalPolicies</p>
+                <button><a asp-controller="Admin" asp-action="Policies">View</a></button>
+            </div>
+            <div class="admin-info-box admin-feature-card">
+                <h1>💳</h1>
+                <h3>Payments</h3>
+                <p>@ViewBag.TotalPayments</p>
+                <button><a asp-controller="Admin" asp-action="Payments">View</a></button>
+            </div>
+            <div class="admin-info-box admin-feature-card">
+                <h1>🏦</h1>
+                <h3>Pending Loans</h3>
+                <p>@ViewBag.PendingLoans</p>
+                <button><a asp-controller="Admin" asp-action="Loans">View</a></button>
+            </div>
+            <div class="admin-info-box admin-feature-card">
+                <h1>📄</h1>
+                <h3>User Policies</h3>
+                <p>@ViewBag.totalUserPolicies</p>
+                <button><a asp-controller="Admin" asp-action="UserPolicies">View</a></button>
+            </div>
+            <div class="admin-info-box admin-feature-card">
+                <h1>✉️</h1>
+                <h3>NewsLetter Emails</h3>
+                <p>@ViewBag.totalNewsEmails</p>
+                <button><a asp-controller="Admin" asp-action="NewsLetterEmails">View</a></button>
+            </div>
+        </div>
+    </main>
+
+</div>
+
+
+
+
+

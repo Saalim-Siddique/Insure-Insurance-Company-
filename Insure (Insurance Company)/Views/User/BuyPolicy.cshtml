@@ -1,0 +1,60 @@
+﻿
+@{
+    ViewData["Title"] = "BuyPolicy";
+}
+
+
+@if (TempData["PremAmoError"] != null)
+{
+    <div class="alert alert-danger text-center">
+        @TempData["PremAmoError"]
+    </div>
+}
+
+<div class="buy-wrapper">
+    <h1>BuyPolicy</h1>
+    @if (ViewBag.FinalPremium != null)
+    {
+        <div class="premium-box">
+            <h4>Premium Details</h4>
+            <p><strong>Age:</strong> @ViewBag.Age</p>
+            <p><strong>Final Premium:</strong> Rs. @ViewBag.FinalPremium</p>
+
+            <form asp-action="ConfirmPolicy" method="post">
+                <input type="hidden" name="policyId" value="@ViewBag.Policy.PolicyId" />
+                <input type="hidden" name="finalPremium" value="@ViewBag.FinalPremium" />
+                <input type="hidden" name="age" value="@ViewBag.Age" />
+
+                <button type="submit" class="buy-confirm-btn">
+                    Confirm Purchase
+                </button>
+            </form>
+
+
+        </div>
+    }
+
+    <br /><br />
+
+    <div class="buy-card">
+        <h3>@ViewBag.Policy.PolicyName</h3>
+
+        <p><strong>Insurance Type:</strong> @ViewBag.Policy.InsuranceType.InsuranceName</p>
+        <p><strong>Coverage:</strong> Rs. @ViewBag.Policy.CoverageAmount</p>
+        <p><strong>Term:</strong> @ViewBag.Policy.TermYears years</p>
+
+        <hr />
+
+        <p><strong>Your Name:</strong> @ViewBag.User.FullName</p>
+        <p><strong>Date of Birth:</strong> @ViewBag.User.DateOfBirth.ToShortDateString()</p>
+
+        <form asp-action="CalculatePremium" method="post">
+            <input type="hidden" name="policyId" value="@ViewBag.Policy.PolicyId" />
+            <button class="buy-next-btn">
+                Calculate Premium
+            </button>
+        </form>
+    </div>
+
+
+</div>

@@ -1,0 +1,665 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\models\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\user\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\user\\userprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\user\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\user\\userdashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\user\\paypremium.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\user\\paypremium.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\user\\paymenthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\user\\paymenthistory.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\user\\mypolicies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\user\\mypolicies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\user\\myloans.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\user\\myloans.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\user\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\user\\editprofile.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\user\\calculatepremium.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\user\\calculatepremium.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\user\\buypolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\user\\buypolicy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\user\\applyloan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\user\\applyloan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\user\\allpolicies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\user\\allpolicies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\models\\userpolicypaymenthistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\models\\userpolicypaymenthistoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\models\\userpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\models\\userpolicy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\models\\policywithinsurancetypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\models\\policywithinsurancetypeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\models\\policy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\models\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\models\\paymentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\models\\newslettersubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\models\\newslettersubscription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\models\\loan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\models\\insuredatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\models\\insuredatabasecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\admin\\userpolicies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\admin\\userpolicies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\admin\\payments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\admin\\payments.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\admin\\addpolicywithinsurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\admin\\addpolicywithinsurance.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\admin\\policies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\admin\\policies.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\admin\\admindashboard.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\home\\insurancedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\home\\insurancedetails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\admin\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\admin\\allusers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\admin\\newsletteremails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\admin\\newsletteremails.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\views\\admin\\instypes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\views\\admin\\instypes.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\readme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\migrations\\20260131003616_addpolicydurationinmonths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\migrations\\20260131003616_addpolicydurationinmonths.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\migrations\\20260131010556_addpaymentspaidandleft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\migrations\\20260131010556_addpaymentspaidandleft.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|c:\\users\\saalim siddique\\source\\repos\\insure (insurance company)\\insure (insurance company)\\migrations\\20260130214732_addnewslettersubscriptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E4E51F9-FE92-4226-A412-32C638992BEA}|Insure (Insurance Company)\\Insure (Insurance Company).csproj|solutionrelative:insure (insurance company)\\migrations\\20260130214732_addnewslettersubscriptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\UserProfile.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\User\\UserProfile.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\UserProfile.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\User\\UserProfile.cshtml",
+              "ViewState": "AgIAAC4AAAAAMTMzM7MSwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T17:42:06.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAG8CAAAA2czMzMwYwIQBAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T01:21:43.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAEIAAAAAy8zMzEwdwBcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T21:50:24.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Controllers\\UserController.cs",
+              "ViewState": "AgIAACACAABgI2ZmZuYswA4CAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-28T01:15:10.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\Payment.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Models\\Payment.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\Payment.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Models\\Payment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T23:40:56.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "Insure (Insurance Company)\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAKQNAACAMjMzMzMbwKkNAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-01-30T20:07:53.957Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UserDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\UserDashboard.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\User\\UserDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\UserDashboard.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\User\\UserDashboard.cshtml",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAAADQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T00:57:42.273Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PayPremium.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\PayPremium.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\User\\PayPremium.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\PayPremium.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\User\\PayPremium.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T23:54:45.304Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PaymentHistory.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\PaymentHistory.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\User\\PaymentHistory.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\PaymentHistory.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\User\\PaymentHistory.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T00:43:27.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "MyPolicies.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\MyPolicies.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\User\\MyPolicies.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\MyPolicies.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\User\\MyPolicies.cshtml",
+              "ViewState": "AgIAAF0AAADAYmZmZmYSwEAAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T19:02:06.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MyLoans.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\MyLoans.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\User\\MyLoans.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\MyLoans.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\User\\MyLoans.cshtml",
+              "ViewState": "AgIAABgAAAAAzszMzMwmwDEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T07:47:59.926Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EditProfile.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\EditProfile.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\User\\EditProfile.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\EditProfile.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\User\\EditProfile.cshtml",
+              "ViewState": "AgIAAD0AAAAAAgAAAAABwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-28T20:12:02.835Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CalculatePremium.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\CalculatePremium.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\User\\CalculatePremium.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\CalculatePremium.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\User\\CalculatePremium.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T10:03:33.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "BuyPolicy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\BuyPolicy.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\User\\BuyPolicy.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\BuyPolicy.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\User\\BuyPolicy.cshtml",
+              "ViewState": "AgIAAC4AAAAAZGZmZmb0vwwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T09:46:10.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplyLoan.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\ApplyLoan.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\User\\ApplyLoan.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\ApplyLoan.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\User\\ApplyLoan.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAwvQYAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T07:20:52.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AllPolicies.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\AllPolicies.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\User\\AllPolicies.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\User\\AllPolicies.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\User\\AllPolicies.cshtml",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAAADEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T07:57:20.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserPolicy.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\UserPolicy.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Models\\UserPolicy.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\UserPolicy.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Models\\UserPolicy.cs",
+              "ViewState": "AgIAABcAAAAAMzMzMzMnwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T01:04:34.565Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\User.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\User.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Models\\User.cs",
+              "ViewState": "AgIAABUAAABAMjMzMzMXwBkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T11:15:55.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "PolicyWithInsuranceTypeViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\PolicyWithInsuranceTypeViewModel.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Models\\PolicyWithInsuranceTypeViewModel.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\PolicyWithInsuranceTypeViewModel.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Models\\PolicyWithInsuranceTypeViewModel.cs",
+              "ViewState": "AgIAABsAAACA//////88wCEAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T09:08:51.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Policy.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\Policy.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Models\\Policy.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\Policy.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Models\\Policy.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAmwBYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T00:35:26.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "PaymentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\PaymentViewModel.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Models\\PaymentViewModel.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\PaymentViewModel.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Models\\PaymentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T01:35:58.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "NewsletterSubscription.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\NewsletterSubscription.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Models\\NewsletterSubscription.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\NewsletterSubscription.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Models\\NewsletterSubscription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T21:45:19.869Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UserPolicyPaymentHistoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\UserPolicyPaymentHistoryViewModel.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Models\\UserPolicyPaymentHistoryViewModel.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\UserPolicyPaymentHistoryViewModel.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Models\\UserPolicyPaymentHistoryViewModel.cs",
+              "ViewState": "AgIAAAsAAAAAZWZmZmYawAAAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T01:36:39.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Loan.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\Loan.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Models\\Loan.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\Loan.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Models\\Loan.cs",
+              "ViewState": "AgIAAAkAAABgMzMzMzM9wAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T06:51:21.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "InsuredatabaseContext.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\InsuredatabaseContext.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Models\\InsuredatabaseContext.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Models\\InsuredatabaseContext.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Models\\InsuredatabaseContext.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAUwB0AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T21:46:34.822Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "UserPolicies.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\UserPolicies.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\Admin\\UserPolicies.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\UserPolicies.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\Admin\\UserPolicies.cshtml",
+              "ViewState": "AgIAACQAAAAAAAAAAAA0PSYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T20:41:29.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "AdminDashboard.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\Admin\\AdminDashboard.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\AdminDashboard.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\Admin\\AdminDashboard.cshtml",
+              "ViewState": "AgIAAEgAAABAmpmZmZktwEoAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T20:24:17.818Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Payments.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\Payments.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\Admin\\Payments.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\Payments.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\Admin\\Payments.cshtml",
+              "ViewState": "AgIAABIAAABALzMzMzMbwB4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T09:14:42.103Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "AddPolicyWithInsurance.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\AddPolicyWithInsurance.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\Admin\\AddPolicyWithInsurance.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\AddPolicyWithInsurance.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\Admin\\AddPolicyWithInsurance.cshtml",
+              "ViewState": "AgIAACsAAAAAAAAAAAAAwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-31T09:03:35.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Policies.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\Policies.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\Admin\\Policies.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\Policies.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\Admin\\Policies.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAABqPS0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-29T08:33:01.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAIYAAAAAWTMzMzMLwGsAAABTAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-29T07:59:55.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAADABAAAAamZmZmYowD0BAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-29T11:03:57.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "20260131003616_AddPolicyDurationInMonths.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Migrations\\20260131003616_AddPolicyDurationInMonths.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Migrations\\20260131003616_AddPolicyDurationInMonths.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Migrations\\20260131003616_AddPolicyDurationInMonths.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Migrations\\20260131003616_AddPolicyDurationInMonths.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T00:36:16.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "20260131010556_AddPaymentsPaidAndLeft.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Migrations\\20260131010556_AddPaymentsPaidAndLeft.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Migrations\\20260131010556_AddPaymentsPaidAndLeft.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Migrations\\20260131010556_AddPaymentsPaidAndLeft.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Migrations\\20260131010556_AddPaymentsPaidAndLeft.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-31T01:05:56.56Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "AllUsers.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\AllUsers.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\Admin\\AllUsers.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\AllUsers.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\Admin\\AllUsers.cshtml",
+              "ViewState": "AgIAAEsAAAAAZmZmZmYawFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-29T07:36:00.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "InsuranceDetails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Home\\InsuranceDetails.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\Home\\InsuranceDetails.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Home\\InsuranceDetails.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\Home\\InsuranceDetails.cshtml",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAgwDgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T21:13:06.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "NewsLetterEmails.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\NewsLetterEmails.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\Admin\\NewsLetterEmails.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\NewsLetterEmails.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\Admin\\NewsLetterEmails.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T22:08:39.91Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "20260130214732_AddNewsletterSubscriptions.cs",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Migrations\\20260130214732_AddNewsletterSubscriptions.cs",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Migrations\\20260130214732_AddNewsletterSubscriptions.cs",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Migrations\\20260130214732_AddNewsletterSubscriptions.cs",
+              "RelativeToolTip": "Insure (Insurance Company)\\Migrations\\20260130214732_AddNewsletterSubscriptions.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T21:47:33.041Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "InsTypes.cshtml",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\InsTypes.cshtml",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Views\\Admin\\InsTypes.cshtml",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Views\\Admin\\InsTypes.cshtml",
+              "RelativeToolTip": "Insure (Insurance Company)\\Views\\Admin\\InsTypes.cshtml",
+              "ViewState": "AgIAAGIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-01-30T21:11:35.525Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Readme.txt",
+              "DocumentMoniker": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Readme.txt",
+              "RelativeDocumentMoniker": "Insure (Insurance Company)\\Readme.txt",
+              "ToolTip": "C:\\Users\\Saalim Siddique\\source\\repos\\Insure (Insurance Company)\\Insure (Insurance Company)\\Readme.txt",
+              "RelativeToolTip": "Insure (Insurance Company)\\Readme.txt",
+              "ViewState": "AgIAADcAAAAAAAAAAABBwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-01-29T11:40:43.072Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+﻿@model Insure__Insurance_Company_.Models.User
+
+@{
+    ViewData["Title"] = "EditProfile";
+}
+
+<h1 class="custom-edit-title">EditProfile</h1>
+
+@if (TempData["DOBError"] != null)
+{
+    <div class="alert alert-danger text-center">
+        @TempData["DOBError"]
+    </div>
+}
+
+<div class="custom-edit-row">
+    <div class="custom-edit-col">
+        <form asp-action="EditProfile" method="post" novalidate>
+            <div asp-validation-summary="ModelOnly" class="custom-edit-validation-summary"></div>
+
+            <input type="hidden" asp-for="UserId" />
+
+            <div class="custom-edit-form-group">
+                <label asp-for="FullName" class="custom-edit-label"></label>
+                <input asp-for="FullName" class="custom-edit-input" />
+                <span asp-validation-for="FullName" class="custom-edit-text-danger"></span>
+            </div>
+
+            <div class="custom-edit-form-group">
+                <label asp-for="Email" class="custom-edit-label"></label>
+                <input asp-for="Email" class="custom-edit-input" />
+                <span asp-validation-for="Email" class="custom-edit-text-danger"></span>
+            </div>
+
+            <div class="custom-edit-form-group">
+                <label asp-for="Password" class="custom-edit-label"></label>
+                <input asp-for="Password" class="custom-edit-input"/>
+                <span asp-validation-for="Password" class="custom-edit-text-danger"></span>
+            </div>
+
+            <div class="custom-edit-form-group">
+                <label asp-for="Phone" class="custom-edit-label"></label>
+                <input asp-for="Phone" class="custom-edit-input" />
+                <span asp-validation-for="Phone" class="custom-edit-text-danger"></span>
+            </div>
+
+            <div class="custom-edit-form-group">
+                <label asp-for="Address" class="custom-edit-label"></label>
+                <input asp-for="Address" class="custom-edit-input" />
+                <span asp-validation-for="Address" class="custom-edit-text-danger"></span>
+            </div>
+
+            @* <div class="custom-edit-form-group">
+                <label asp-for="Role" class="custom-edit-label"></label>
+                <input asp-for="Role" class="custom-edit-input" readonly />
+                <span asp-validation-for="Role" class="custom-edit-text-danger"></span>
+            </div>
+
+            <div class="custom-edit-form-group">
+                <label asp-for="CreatedAt" class="custom-edit-label"></label>
+                <input asp-for="CreatedAt" class="custom-edit-input" readonly />
+                <span asp-validation-for="CreatedAt" class="custom-edit-text-danger"></span>
+            </div> *@
+
+            <div class="custom-edit-form-group">
+                <label asp-for="DateOfBirth" class="custom-edit-label"></label>
+                <input asp-for="DateOfBirth" class="custom-edit-input" type="date" />
+                <span asp-validation-for="DateOfBirth" class="custom-edit-text-danger"></span>
+            </div>
+
+            <div class="custom-edit-form-group">
+                <input type="submit" value="Save" class="custom-edit-btn-primary" />
+            </div>
+            <div class="custom-edit-back-link-parent">
+                <a asp-controller="User" asp-action="UserProfile" class="custom-edit-back-link">Back to List</a>
+            </div>
+
+        </form>
+    </div>
+</div>
+

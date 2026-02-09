@@ -1,0 +1,76 @@
+﻿
+@{
+    ViewData["Title"] = "Testimonial";
+}
+<!-- Page Header Start -->
+<div class="container-fluid page-header py-5 mb-5 wow fadeIn"
+     data-wow-delay="0.1s">
+    <div class="container py-5">
+        <h1 class="display-4 animated slideInDown mb-4">Testimonial</h1>
+        <nav aria-label="breadcrumb animated slideInDown">
+            <ol class="breadcrumb mb-0">
+                <li class="breadcrumb-item"><a asp-controller="Home" asp-action="index">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    Testimonial
+                </li>
+            </ol>
+        </nav>
+    </div>
+</div>
+<!-- Page Header End -->
+<!-- Testimonial Start -->
+<div class="container-xxl py-5">
+    <div class="container">
+        <div class="text-center mx-auto" style="max-width: 500px">
+            <h1 class="display-6 mb-5">What They Say About Our Insurance</h1>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="testimonial-left h-100">
+                    <img class="img-fluid animated pulse infinite" src="~/img/testimonial-1.jpg" alt="" />
+                    <img class="img-fluid animated pulse infinite" src="~/img/testimonial-2.jpg" alt="" />
+                    <img class="img-fluid animated pulse infinite" src="~/img/testimonial-3.jpg" alt="" />
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                <div class="owl-carousel testimonial-carousel">
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid rounded mx-auto mb-4" src="~/img/testimonial-1.jpg" alt="" />
+                        <p class="fs-5">
+                            The team helped me choose the right coverage with complete transparency.
+                            I feel secure and confident.
+                        </p>
+                        <h5>Sarah Johnson</h5>
+                        <span>Marketing Manager</span>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid rounded mx-auto mb-4" src="~/img/testimonial-2.jpg" alt="" />
+                        <p class="fs-5">
+                            Excellent service and clear guidance throughout the policy process.
+                            Claims were handled quickly and professionally.
+                        </p>
+                        <h5>Michael Brown</h5>
+                        <span>Business Owner</span>
+                    </div>
+                    <div class="testimonial-item text-center">
+                        <img class="img-fluid rounded mx-auto mb-4" src="~/img/testimonial-3.jpg" alt="" />
+                        <p class="fs-5">
+                            Reliable insurance support with friendly advisors.
+                            Highly recommended for long-term protection.
+                        </p>
+                        <h5>David Wilson</h5>
+                        <span>IT Consultant</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 d-none d-lg-block">
+                <div class="testimonial-right h-100">
+                    <img class="img-fluid animated pulse infinite" src="~/img/testimonial-1.jpg" alt="" />
+                    <img class="img-fluid animated pulse infinite" src="~/img/testimonial-2.jpg" alt="" />
+                    <img class="img-fluid animated pulse infinite" src="~/img/testimonial-3.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Testimonial End -->

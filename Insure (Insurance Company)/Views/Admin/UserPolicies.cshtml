@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Insure__Insurance_Company_.Models.UserPolicy>
+
+
+@{
+    ViewData["Title"] = "UserPolicies";
+}
+
+
+    <table class="table userpolicies-table">
+    <h1 class="userpolicies-table-h1">User Policies</h1>
+
+    <thead>
+        <tr>
+            <th>@Html.DisplayNameFor(model => model.User.FullName)</th>
+            <th>@Html.DisplayNameFor(model => model.StartDate)</th>
+            <th>@Html.DisplayNameFor(model => model.EndDate)</th>
+            <th>@Html.DisplayNameFor(model => model.Status)</th>
+            <th>@Html.DisplayNameFor(model => model.FinalPremium)</th>
+            <th>@Html.DisplayNameFor(model => model.AgeAtPurchase)</th>
+            <th>@Html.DisplayNameFor(model => model.Policy.PolicyName)</th>
+            <th>@Html.DisplayNameFor(model => model.Policy.CoverageAmount)</th>
+            <th>@Html.DisplayNameFor(model => model.Policy.InsuranceType.InsuranceName)</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td data-label="User Name">@item.User?.FullName</td>
+                <td data-label="Start Date">@Html.DisplayFor(modelItem => item.StartDate)</td>
+                <td data-label="End Date">@Html.DisplayFor(modelItem => item.EndDate)</td>
+                <td data-label="Status">@Html.DisplayFor(modelItem => item.Status)</td>
+                <td data-label="Final Premium">@Html.DisplayFor(modelItem => item.FinalPremium)</td>
+                <td data-label="Age At Purchase">@Html.DisplayFor(modelItem => item.AgeAtPurchase)</td>
+                <td data-label="Policy Name">@Html.DisplayFor(modelItem => item.Policy.PolicyName)</td>
+                <td data-label="Coverage Amount">@Html.DisplayFor(modelItem => item.Policy.CoverageAmount)</td>
+                <td data-label="Insurance Type">@Html.DisplayFor(modelItem => item.Policy.InsuranceType.InsuranceName)</td>
+               
+            </tr>
+        }
+    </tbody>
+</table>
+
+@if (!Model.Any())
+{
+    <p class="text-center text-muted mt-4">
+        No user policies found.
+    </p>
+}

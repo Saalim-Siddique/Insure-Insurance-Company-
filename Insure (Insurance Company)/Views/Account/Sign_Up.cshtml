@@ -1,0 +1,55 @@
+﻿@model Insure__Insurance_Company_.Models.User
+
+
+@{
+	ViewData["Title"] = "Sign_Up";
+}
+
+<div class="signup-body">
+	<div class="signup-box">
+		<h2>Insurance Sign Up</h2>
+		<form asp-action="Sign_Up" id="signupForm">
+
+			<label asp-for="FullName">Full Name</label>
+			<input asp-for="FullName" type="text" id="fullname" name="fullname" />
+			<div class="error" id="nameError"></div>
+
+			<label asp-for="Email">Email Address</label>
+			<input asp-for="Email" type="email" id="email" name="email" />
+			<div class="error" id="emailError"></div>
+
+			<label asp-for="Phone">Phone</label>
+			<input asp-for="Phone" type="number" id="number" name="phone" />
+			<div class="error" id="UserError"></div>
+
+			<label asp-for="Address">Address</label>
+			<input asp-for="Address" type="text" id="Address" name="Address" />
+			<div class="error" id="nameError"></div>
+
+			<label asp-for="DateOfBirth"></label>
+			<input asp-for="DateOfBirth" type="date" class="form-control" />
+@* <span asp-validation-for="DateOfBirth" class="text-danger"></span> *@
+
+			<div class="password-wrapper">
+				<label asp-for="Password">Password</label>
+				<input asp-for="Password" type="password" id="password" class="password-input" />
+
+				<span class="toggle-password" onclick="togglePassword()">
+					<i id="eyeIcon" class="fa-solid fa-eye"></i>
+				</span>
+			</div>
+
+			<div class="error" id="passwordError"></div>
+			<button type="submit">Sign Up</button>
+		</form>
+
+		<div asp-validation-summary="All" class="text-danger"></div>
+
+
+		<div class="links-signup">
+			<a asp-controller="Account" asp-action="Login">Already have an account? Login</a>
+		</div>
+	</div>
+</div>
+
+

@@ -1,0 +1,42 @@
+﻿@model Insure__Insurance_Company_.Models.InsuranceType
+
+@{
+    ViewData["Title"] = "EditInsType";
+}
+<div class="page-content-wrapper">
+
+<div class="edit-ins-row">
+    <div class="edit-ins-col">
+
+        <h2 class="edit-ins-title">Edit Insurance Type</h2>
+
+        <form asp-action="EditInsType" class="edit-ins-form">
+            <div asp-validation-summary="ModelOnly" class="edit-ins-text-danger"></div>
+
+            <input type="hidden" asp-for="InsuranceTypeId" />
+
+            <div class="edit-ins-form-group">
+                <label asp-for="InsuranceName" class="edit-ins-form-label"></label>
+                <input asp-for="InsuranceName" class="edit-ins-form-control" />
+                <span asp-validation-for="InsuranceName" class="edit-ins-text-danger"></span>
+            </div>
+
+            <div class="edit-ins-form-group">
+                <label asp-for="Description" class="edit-ins-form-label"></label>
+                <input asp-for="Description" class="edit-ins-form-control" />
+                <span asp-validation-for="Description" class="edit-ins-text-danger"></span>
+            </div>
+
+            <div class="edit-ins-btn-group">
+                <input type="submit" value="Save Changes" class="edit-ins-btn-primary" />
+            </div>
+        </form>
+
+        <div class="edit-ins-back-link-parent">
+            <a asp-action="InsTypes" class="edit-ins-back-link">← Back to List</a>
+        </div>
+           
+
+    </div>
+</div>
+</div>

@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Insure__Insurance_Company_.Models.Payment>
+
+@{
+    ViewData["Title"] = "Payments";
+}
+
+<div class="page-content-wrapper">
+<h1>Payments</h1>
+
+<div class="admin-payments-table-container">
+    <table class="admin-payments-table">
+        <thead>
+            <tr>
+                <th>Payment Date</th>
+                <th>Amount Paid</th>
+                <th>Payment Mode</th>
+                    <th>Payment Month</th>
+                    <th>Payment Year</th>
+                <th>User Name</th>
+                <th>Policy Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td data-label="Payment Date">@item.PaymentDate</td>
+                    <td data-label="Amount Paid">Rs. @item.AmountPaid</td>
+                    <td data-label="Payment Mode">@item.PaymentMode</td>
+                    <td data-label="Payment Month">@item.PaymentMonth</td>
+                     <td data-label="Payment Year">@item.PaymentYear</td>
+                    <td data-label="User Name">@item.UserPolicy.User.FullName </td>
+                    <td data-label="Policy Name">@item.UserPolicy.Policy.PolicyName</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+</div>
+@if (!Model.Any())
+{
+    <p class="text-center text-muted mt-4">
+        No payments found.
+    </p>
+}

@@ -1,0 +1,110 @@
+﻿@model IEnumerable<Insure__Insurance_Company_.Models.InsuranceType>
+
+@{
+    ViewData["Title"] = "InsTypes";
+}
+
+<div class="page-content-wrapper">
+
+    <h1 class="instype-page-title">Insurance Types</h1>
+
+   
+
+    <div class="text-center mb-3 mt-3">
+        <a asp-controller="Admin"
+           asp-action="AddInsType"
+           class="btn btn-primary me-2">
+            Add Insurance Type
+        </a>
+
+        <a asp-controller="Admin"
+           asp-action="Policies"
+           class="btn btn-secondary mt-1">
+            Back to Policies
+        </a>
+    </div>
+    @* Messages *@
+    @if (TempData["InsTypeErrrorMsg"] != null)
+    {
+        <div class="alert alert-danger mt-3 text-center">
+            @TempData["InsTypeErrrorMsg"]
+        </div>
+    }
+
+    @if (TempData["InsTypeSuccMsg"] != null)
+    {
+        <div class="alert alert-success mt-3 text-center">
+            @TempData["InsTypeSuccMsg"]
+        </div>
+    }
+
+    @if (TempData["EditInsType"] != null)
+    {
+        <div class="alert alert-success mt-3 text-center">
+            @TempData["EditInsType"]
+        </div>
+    }
+
+    @if (TempData["AddInsTypeSuccess"] != null)
+    {
+        <div class="alert alert-success mt-3 text-center">
+            @TempData["AddInsTypeSuccess"]
+        </div>
+    }
+    <div class="instype-table-container">
+        <table class="instype-table">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.InsuranceName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Description)
+                    </th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td data-label="Insurance Name">
+                            @Html.DisplayFor(modelItem => item.InsuranceName)
+                        </td>
+                        <td data-label="Description">
+                            @Html.DisplayFor(modelItem => item.Description)
+                        </td>
+                        <td class="instype-actions" data-label="Actions">
+                            <div class="instype-action-wrapper">
+                                <a asp-action="EditInsType"
+                                   asp-route-id="@item.InsuranceTypeId"
+                                   class="instype-action-link instype-action-edit">
+                                    Edit
+                                </a>
+
+                                <span class="instype-action-separator">|</span>
+
+                                <a asp-action="DelInsType"
+                                   asp-route-id="@item.InsuranceTypeId"
+                                   onclick="return confirm('Are you sure you want to delete this Insurance Type?');"
+                                   class="instype-action-link instype-action-delete">
+                                    Delete
+                                </a>
+                            </div>
+                        </td>
+
+
+
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+
+@if (!Model.Any())
+{
+    <p class="text-center text-muted mt-4">
+        No Insurance Types found.
+    </p>
+}
